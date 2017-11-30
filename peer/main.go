@@ -118,5 +118,8 @@ func main() {
 	if mainCmd.Execute() != nil {
 		os.Exit(1)
 	}
+	if mainCmd.Execute() != nil {
+		os.Exit(1)
+	}
 	logger.Info("Exiting.....")
 }
