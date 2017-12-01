@@ -20,8 +20,8 @@ package factory
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/pkcs11"
+	"github.com/Alex-duzhichao/fabric/bccsp"
+	"github.com/Alex-duzhichao/fabric/bccsp/pkcs11"
 )
 
 type FactoryOpts struct {

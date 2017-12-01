@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 // SimpleChaincode example simple Chaincode implementation

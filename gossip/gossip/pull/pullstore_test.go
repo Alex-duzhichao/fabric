@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/gossip/algo"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/Alex-duzhichao/fabric/gossip/comm"
+	"github.com/Alex-duzhichao/fabric/gossip/discovery"
+	"github.com/Alex-duzhichao/fabric/gossip/gossip/algo"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
+	proto "github.com/Alex-duzhichao/fabric/protos/gossip"
 	"github.com/stretchr/testify/assert"
 )
 

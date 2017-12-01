@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	mmsp "github.com/hyperledger/fabric/common/mocks/msp"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	mmsp "github.com/Alex-duzhichao/fabric/common/mocks/msp"
+	"github.com/Alex-duzhichao/fabric/common/util"
+	"github.com/Alex-duzhichao/fabric/msp"
+	mspmgmt "github.com/Alex-duzhichao/fabric/msp/mgmt"
+	"github.com/Alex-duzhichao/fabric/msp/mgmt/testtools"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

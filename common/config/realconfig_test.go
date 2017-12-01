@@ -20,12 +20,12 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/configtx/tool/localconfig"
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	cb "github.com/hyperledger/fabric/protos/common"
+	. "github.com/Alex-duzhichao/fabric/common/config"
+	"github.com/Alex-duzhichao/fabric/common/config/msp"
+	"github.com/Alex-duzhichao/fabric/common/configtx"
+	"github.com/Alex-duzhichao/fabric/common/configtx/tool/localconfig"
+	"github.com/Alex-duzhichao/fabric/common/configtx/tool/provisional"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 
 	"github.com/stretchr/testify/assert"
 )

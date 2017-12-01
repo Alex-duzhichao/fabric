@@ -24,9 +24,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	ccutil "github.com/hyperledger/fabric/core/chaincode/platforms/util"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	ccutil "github.com/Alex-duzhichao/fabric/core/chaincode/platforms/util"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 var includeFileTypes = map[string]bool{

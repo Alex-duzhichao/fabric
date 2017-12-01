@@ -23,19 +23,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/sysccprovider"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/hyperledger/fabric/core/scc/lscc"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/rwset/kvrwset"
-	"github.com/hyperledger/fabric/protos/msp"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/cauthdsl"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	"github.com/Alex-duzhichao/fabric/core/common/ccprovider"
+	"github.com/Alex-duzhichao/fabric/core/common/sysccprovider"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/Alex-duzhichao/fabric/core/scc/lscc"
+	mspmgmt "github.com/Alex-duzhichao/fabric/msp/mgmt"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/ledger/rwset/kvrwset"
+	"github.com/Alex-duzhichao/fabric/protos/msp"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 var logger = flogging.MustGetLogger("vscc")

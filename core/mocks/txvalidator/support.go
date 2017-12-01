@@ -17,11 +17,11 @@ limitations under the License.
 package support
 
 import (
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
+	mockpolicies "github.com/Alex-duzhichao/fabric/common/mocks/policies"
+	"github.com/Alex-duzhichao/fabric/common/policies"
+	"github.com/Alex-duzhichao/fabric/core/ledger"
+	"github.com/Alex-duzhichao/fabric/msp"
+	"github.com/Alex-duzhichao/fabric/protos/common"
 )
 
 type Support struct {

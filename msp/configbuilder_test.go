@@ -19,7 +19,7 @@ package msp
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/core/config"
 	"github.com/stretchr/testify/assert"
 )
 

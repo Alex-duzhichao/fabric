@@ -21,9 +21,9 @@ import (
 
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/core/common/ccprovider"
+	"github.com/Alex-duzhichao/fabric/core/ledger"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 // ccProviderFactory implements the ccprovider.ChaincodeProviderFactory

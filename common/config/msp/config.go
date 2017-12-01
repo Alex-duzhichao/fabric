@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/hyperledger/fabric/msp"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
+	"github.com/Alex-duzhichao/fabric/msp"
+	mspprotos "github.com/Alex-duzhichao/fabric/protos/msp"
 )
 
 type pendingMSPConfig struct {

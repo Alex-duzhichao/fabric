@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/configtx/api"
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/config"
+	"github.com/Alex-duzhichao/fabric/common/configtx/api"
+	"github.com/Alex-duzhichao/fabric/common/policies"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"

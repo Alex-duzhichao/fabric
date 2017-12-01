@@ -17,13 +17,13 @@ limitations under the License.
 package multichain
 
 import (
-	"github.com/hyperledger/fabric/common/config"
-	mockconfig "github.com/hyperledger/fabric/common/mocks/config"
-	"github.com/hyperledger/fabric/orderer/common/blockcutter"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	mockblockcutter "github.com/hyperledger/fabric/orderer/mocks/blockcutter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/config"
+	mockconfig "github.com/Alex-duzhichao/fabric/common/mocks/config"
+	"github.com/Alex-duzhichao/fabric/orderer/common/blockcutter"
+	"github.com/Alex-duzhichao/fabric/orderer/common/filter"
+	mockblockcutter "github.com/Alex-duzhichao/fabric/orderer/mocks/blockcutter"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 
 	"github.com/op/go-logging"
 )

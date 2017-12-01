@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/gossip/util"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/common/config"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 const testChainID = "foo"

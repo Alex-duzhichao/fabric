@@ -17,9 +17,9 @@ limitations under the License.
 package ledger
 
 import (
-	commonledger "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
+	commonledger "github.com/Alex-duzhichao/fabric/common/ledger"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 // PeerLedgerProvider provides handle to ledger instances

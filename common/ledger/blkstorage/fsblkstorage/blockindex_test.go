@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/peer"
-	putil "github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/ledger/blkstorage"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/core/ledger/util"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
+	putil "github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 type noopIndex struct {

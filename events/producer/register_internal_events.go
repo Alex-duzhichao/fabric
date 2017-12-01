@@ -22,7 +22,7 @@ limitations under the License.
 package producer
 
 import (
-	pb "github.com/hyperledger/fabric/protos/peer"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 //----Event Types -----

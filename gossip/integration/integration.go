@@ -23,11 +23,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/gossip"
-	"github.com/hyperledger/fabric/gossip/identity"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/Alex-duzhichao/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/gossip/api"
+	"github.com/Alex-duzhichao/fabric/gossip/gossip"
+	"github.com/Alex-duzhichao/fabric/gossip/identity"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
 )

@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/events/consumer"
-	"github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/core/ledger/util"
+	"github.com/Alex-duzhichao/fabric/events/consumer"
+	"github.com/Alex-duzhichao/fabric/msp/mgmt"
+	"github.com/Alex-duzhichao/fabric/msp/mgmt/testtools"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 type adapter struct {

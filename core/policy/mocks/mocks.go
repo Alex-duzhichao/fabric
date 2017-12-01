@@ -23,10 +23,10 @@ import (
 
 	"errors"
 
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
-	mspproto "github.com/hyperledger/fabric/protos/msp"
+	"github.com/Alex-duzhichao/fabric/common/policies"
+	"github.com/Alex-duzhichao/fabric/msp"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	mspproto "github.com/Alex-duzhichao/fabric/protos/msp"
 )
 
 type MockChannelPolicyManagerGetter struct {

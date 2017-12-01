@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
 )
 
 var vmLogger = flogging.MustGetLogger("container")

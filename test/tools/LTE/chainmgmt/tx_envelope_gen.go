@@ -17,11 +17,11 @@ limitations under the License.
 package chainmgmt
 
 import (
-	mockmsp "github.com/hyperledger/fabric/common/mocks/msp"
-	"github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	mockmsp "github.com/Alex-duzhichao/fabric/common/mocks/msp"
+	"github.com/Alex-duzhichao/fabric/msp"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
+	putils "github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 const (

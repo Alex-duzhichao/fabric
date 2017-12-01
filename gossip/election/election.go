@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
 	"github.com/op/go-logging"
 	"github.com/spf13/viper"
 )

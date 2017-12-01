@@ -28,9 +28,9 @@ import (
 
 	"bytes"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/ledger"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 var ccproviderLogger = flogging.MustGetLogger("ccprovider")

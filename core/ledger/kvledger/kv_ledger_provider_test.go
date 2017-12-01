@@ -22,14 +22,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	configtxtest "github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage/fsblkstorage"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	configtxtest "github.com/Alex-duzhichao/fabric/common/configtx/test"
+	"github.com/Alex-duzhichao/fabric/common/ledger/blkstorage/fsblkstorage"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/core/ledger"
+	"github.com/Alex-duzhichao/fabric/core/ledger/ledgerconfig"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/ledger/queryresult"
+	putils "github.com/Alex-duzhichao/fabric/protos/utils"
 	"github.com/spf13/viper"
 )
 

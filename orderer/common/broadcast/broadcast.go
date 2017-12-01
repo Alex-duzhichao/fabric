@@ -17,15 +17,15 @@ limitations under the License.
 package broadcast
 
 import (
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/Alex-duzhichao/fabric/orderer/common/filter"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	ab "github.com/Alex-duzhichao/fabric/protos/orderer"
 	"github.com/op/go-logging"
 
 	"io"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 var logger = logging.MustGetLogger("orderer/common/broadcast")

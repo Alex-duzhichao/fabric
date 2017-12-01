@@ -17,7 +17,7 @@ limitations under the License.
 package configtx
 
 import (
-	cb "github.com/hyperledger/fabric/protos/common"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

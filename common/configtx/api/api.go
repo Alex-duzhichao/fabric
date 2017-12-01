@@ -17,10 +17,10 @@ limitations under the License.
 package api
 
 import (
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/config"
+	"github.com/Alex-duzhichao/fabric/common/policies"
+	"github.com/Alex-duzhichao/fabric/msp"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

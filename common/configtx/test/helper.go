@@ -17,17 +17,17 @@ limitations under the License.
 package test
 
 import (
-	"github.com/hyperledger/fabric/common/config"
-	configtxmsp "github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/common/configtx"
-	genesisconfig "github.com/hyperledger/fabric/common/configtx/tool/localconfig"
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/common/genesis"
-	cf "github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspproto "github.com/hyperledger/fabric/protos/msp"
+	"github.com/Alex-duzhichao/fabric/common/config"
+	configtxmsp "github.com/Alex-duzhichao/fabric/common/config/msp"
+	"github.com/Alex-duzhichao/fabric/common/configtx"
+	genesisconfig "github.com/Alex-duzhichao/fabric/common/configtx/tool/localconfig"
+	"github.com/Alex-duzhichao/fabric/common/configtx/tool/provisional"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/common/genesis"
+	cf "github.com/Alex-duzhichao/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/msp"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	mspproto "github.com/Alex-duzhichao/fabric/protos/msp"
 )
 
 var logger = flogging.MustGetLogger("common/configtx/test")

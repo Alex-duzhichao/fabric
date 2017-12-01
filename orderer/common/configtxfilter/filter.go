@@ -19,11 +19,11 @@ package configtxfilter
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/configtx"
-	"github.com/hyperledger/fabric/common/configtx/api"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/configtx"
+	"github.com/Alex-duzhichao/fabric/common/configtx/api"
+	"github.com/Alex-duzhichao/fabric/orderer/common/filter"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 type configFilter struct {

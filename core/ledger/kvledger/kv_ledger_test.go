@@ -21,13 +21,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
-	ledgertestutil "github.com/hyperledger/fabric/core/ledger/testutil"
-	"github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/ledger/queryresult"
-	"github.com/hyperledger/fabric/protos/peer"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/core/ledger/ledgerconfig"
+	ledgertestutil "github.com/Alex-duzhichao/fabric/core/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/ledger/queryresult"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
+	putils "github.com/Alex-duzhichao/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,8 +17,8 @@ limitations under the License.
 package validator
 
 import (
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/Alex-duzhichao/fabric/protos/common"
 )
 
 // Validator validates a rwset

@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
 )
 
 // TestSimpleQuery tests a simple query

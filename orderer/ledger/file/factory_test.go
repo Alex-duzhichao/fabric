@@ -21,9 +21,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	"github.com/hyperledger/fabric/common/ledger/blkstorage"
-	"github.com/hyperledger/fabric/orderer/ledger"
+	"github.com/Alex-duzhichao/fabric/common/configtx/tool/provisional"
+	"github.com/Alex-duzhichao/fabric/common/ledger/blkstorage"
+	"github.com/Alex-duzhichao/fabric/orderer/ledger"
 	"github.com/stretchr/testify/assert"
 )
 

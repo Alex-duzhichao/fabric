@@ -26,8 +26,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/hyperledger/fabric/examples/ccchecker/chaincodes"
-	"github.com/hyperledger/fabric/peer/common"
+	"github.com/Alex-duzhichao/fabric/examples/ccchecker/chaincodes"
+	"github.com/Alex-duzhichao/fabric/peer/common"
 )
 
 //global ccchecker params

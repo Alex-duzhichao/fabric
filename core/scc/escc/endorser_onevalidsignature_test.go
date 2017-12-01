@@ -23,14 +23,14 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/validation"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/util"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	"github.com/Alex-duzhichao/fabric/core/common/validation"
+	mspmgmt "github.com/Alex-duzhichao/fabric/msp/mgmt"
+	"github.com/Alex-duzhichao/fabric/msp/mgmt/testtools"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
+	putils "github.com/Alex-duzhichao/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 

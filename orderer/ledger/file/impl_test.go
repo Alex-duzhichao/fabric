@@ -22,12 +22,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	cl "github.com/hyperledger/fabric/common/ledger"
-	"github.com/hyperledger/fabric/orderer/ledger"
-	cb "github.com/hyperledger/fabric/protos/common"
-	ab "github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/common/configtx/tool/provisional"
+	cl "github.com/Alex-duzhichao/fabric/common/ledger"
+	"github.com/Alex-duzhichao/fabric/orderer/ledger"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	ab "github.com/Alex-duzhichao/fabric/protos/orderer"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
 )

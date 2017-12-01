@@ -19,13 +19,13 @@ package escc
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
+	putils "github.com/Alex-duzhichao/fabric/protos/utils"
 
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
+	mspmgmt "github.com/Alex-duzhichao/fabric/msp/mgmt"
 )
 
 var logger = flogging.MustGetLogger("escc")

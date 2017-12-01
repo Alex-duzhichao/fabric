@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/hyperledger/fabric/common/tools/configtxlator/sanitycheck"
-	"github.com/hyperledger/fabric/common/tools/configtxlator/update"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/tools/configtxlator/sanitycheck"
+	"github.com/Alex-duzhichao/fabric/common/tools/configtxlator/update"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 
 	"github.com/golang/protobuf/proto"
 )

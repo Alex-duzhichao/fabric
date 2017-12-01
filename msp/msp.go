@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/Alex-duzhichao/fabric/protos/msp"
 )
 
 // FIXME: we need better comments on the interfaces!!

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	container "github.com/hyperledger/fabric/core/container/api"
-	"github.com/hyperledger/fabric/core/container/ccintf"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	container "github.com/Alex-duzhichao/fabric/core/container/api"
+	"github.com/Alex-duzhichao/fabric/core/container/ccintf"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 
 	"golang.org/x/net/context"
 )

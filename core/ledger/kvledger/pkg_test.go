@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/ledger/ledgerconfig"
+	"github.com/Alex-duzhichao/fabric/core/ledger/ledgerconfig"
 	"github.com/spf13/viper"
 )
 

@@ -19,13 +19,13 @@ package configtx
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/common/config"
-	configmsp "github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/config"
+	configmsp "github.com/Alex-duzhichao/fabric/common/config/msp"
+	"github.com/Alex-duzhichao/fabric/common/policies"
+	"github.com/Alex-duzhichao/fabric/common/util"
+	"github.com/Alex-duzhichao/fabric/msp"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 )

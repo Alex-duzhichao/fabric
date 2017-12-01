@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/Alex-duzhichao/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

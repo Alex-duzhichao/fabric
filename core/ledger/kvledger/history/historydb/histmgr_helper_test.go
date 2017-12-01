@@ -19,7 +19,7 @@ package historydb
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
 )
 
 var strKeySep = string(compositeKeySep)

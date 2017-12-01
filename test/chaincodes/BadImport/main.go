@@ -8,7 +8,7 @@
 package main
 
 import (
-	"github.com/hyperledger/fabric/core/chaincode/shim"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
 	"fmt"
 	"bogus/package"
 )

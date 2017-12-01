@@ -19,8 +19,8 @@ package mgmt
 import (
 	"testing"
 
-	configvaluesmsp "github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/msp"
+	configvaluesmsp "github.com/Alex-duzhichao/fabric/common/config/msp"
+	"github.com/Alex-duzhichao/fabric/msp"
 	"github.com/stretchr/testify/assert"
 )
 

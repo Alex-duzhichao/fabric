@@ -19,9 +19,9 @@ package config
 import (
 	"fmt"
 
-	mspconfig "github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/msp"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
+	mspconfig "github.com/Alex-duzhichao/fabric/common/config/msp"
+	"github.com/Alex-duzhichao/fabric/msp"
+	mspprotos "github.com/Alex-duzhichao/fabric/protos/msp"
 )
 
 // Org config keys

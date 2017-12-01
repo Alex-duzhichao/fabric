@@ -20,9 +20,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	"github.com/Alex-duzhichao/fabric/core/common/ccprovider"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 	"golang.org/x/net/context"
 )
 

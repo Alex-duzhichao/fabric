@@ -23,10 +23,10 @@ import (
 
 	"encoding/hex"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/ca"
-	"github.com/hyperledger/fabric/common/tools/cryptogen/csp"
+	"github.com/Alex-duzhichao/fabric/bccsp"
+	"github.com/Alex-duzhichao/fabric/bccsp/factory"
+	"github.com/Alex-duzhichao/fabric/common/tools/cryptogen/ca"
+	"github.com/Alex-duzhichao/fabric/common/tools/cryptogen/csp"
 )
 
 func GenerateLocalMSP(baseDir, name string, sans []string, signCA *ca.CA,

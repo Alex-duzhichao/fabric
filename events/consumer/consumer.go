@@ -26,11 +26,11 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/comm"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	ehpb "github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/comm"
+	mspmgmt "github.com/Alex-duzhichao/fabric/msp/mgmt"
+	ehpb "github.com/Alex-duzhichao/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 var consumerLogger = flogging.MustGetLogger("eventhub_consumer")

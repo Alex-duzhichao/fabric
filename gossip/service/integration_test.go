@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/core/deliverservice"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/election"
-	"github.com/hyperledger/fabric/gossip/identity"
-	"github.com/hyperledger/fabric/gossip/state"
+	"github.com/Alex-duzhichao/fabric/core/deliverservice"
+	"github.com/Alex-duzhichao/fabric/core/deliverservice/blocksprovider"
+	"github.com/Alex-duzhichao/fabric/gossip/api"
+	"github.com/Alex-duzhichao/fabric/gossip/election"
+	"github.com/Alex-duzhichao/fabric/gossip/identity"
+	"github.com/Alex-duzhichao/fabric/gossip/state"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )

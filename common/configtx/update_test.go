@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	mockconfigtx "github.com/hyperledger/fabric/common/mocks/configtx"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
+	mockconfigtx "github.com/Alex-duzhichao/fabric/common/mocks/configtx"
+	mockpolicies "github.com/Alex-duzhichao/fabric/common/mocks/policies"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 
 	"github.com/stretchr/testify/assert"
 )

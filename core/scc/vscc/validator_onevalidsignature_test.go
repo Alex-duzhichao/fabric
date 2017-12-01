@@ -27,26 +27,26 @@ import (
 	"bytes"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	lm "github.com/hyperledger/fabric/common/mocks/ledger"
-	"github.com/hyperledger/fabric/common/mocks/scc"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/common/sysccprovider"
-	cutils "github.com/hyperledger/fabric/core/container/util"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	per "github.com/hyperledger/fabric/core/peer"
-	"github.com/hyperledger/fabric/core/policy"
-	"github.com/hyperledger/fabric/core/scc/lscc"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	mspproto "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/peer"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/cauthdsl"
+	lm "github.com/Alex-duzhichao/fabric/common/mocks/ledger"
+	"github.com/Alex-duzhichao/fabric/common/mocks/scc"
+	"github.com/Alex-duzhichao/fabric/common/util"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	"github.com/Alex-duzhichao/fabric/core/common/ccpackage"
+	"github.com/Alex-duzhichao/fabric/core/common/ccprovider"
+	"github.com/Alex-duzhichao/fabric/core/common/sysccprovider"
+	cutils "github.com/Alex-duzhichao/fabric/core/container/util"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	per "github.com/Alex-duzhichao/fabric/core/peer"
+	"github.com/Alex-duzhichao/fabric/core/policy"
+	"github.com/Alex-duzhichao/fabric/core/scc/lscc"
+	"github.com/Alex-duzhichao/fabric/msp"
+	mspmgmt "github.com/Alex-duzhichao/fabric/msp/mgmt"
+	"github.com/Alex-duzhichao/fabric/msp/mgmt/testtools"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	mspproto "github.com/Alex-duzhichao/fabric/protos/msp"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -798,7 +798,7 @@ func TestAlreadyDeployed(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1117,7 +1117,7 @@ func TestValidateUpgradeOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1194,7 +1194,7 @@ func TestInvalidateUpgradeBadVersion(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1269,7 +1269,7 @@ func TestValidateUpgradeWithPoliciesOK(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 
@@ -1348,7 +1348,7 @@ func TestValidateUpgradeWithPoliciesFail(t *testing.T) {
 
 	ccname := "mycc"
 	ccver := "1"
-	path := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02"
+	path := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example02"
 
 	ppath := lccctestpath + "/" + ccname + "." + ccver
 

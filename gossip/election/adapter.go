@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/Alex-duzhichao/fabric/gossip/common"
+	"github.com/Alex-duzhichao/fabric/gossip/discovery"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
+	proto "github.com/Alex-duzhichao/fabric/protos/gossip"
 	"github.com/op/go-logging"
 )
 

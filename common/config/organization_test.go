@@ -19,10 +19,10 @@ package config
 import (
 	"testing"
 
-	mspconfig "github.com/hyperledger/fabric/common/config/msp"
-	fabricconfig "github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
+	mspconfig "github.com/Alex-duzhichao/fabric/common/config/msp"
+	fabricconfig "github.com/Alex-duzhichao/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/msp"
+	mspprotos "github.com/Alex-duzhichao/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

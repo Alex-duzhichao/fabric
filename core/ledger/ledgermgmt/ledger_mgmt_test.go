@@ -22,9 +22,9 @@ import (
 
 	"os"
 
-	"github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger"
+	"github.com/Alex-duzhichao/fabric/common/configtx/test"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/core/ledger"
 	"github.com/spf13/viper"
 )
 

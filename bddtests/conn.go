@@ -19,7 +19,7 @@ package bddtests
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/comm"
+	"github.com/Alex-duzhichao/fabric/core/comm"
 	"google.golang.org/grpc"
 )
 

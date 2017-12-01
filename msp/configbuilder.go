@@ -27,9 +27,9 @@ import (
 
 	"os"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric/protos/msp"
+	"github.com/Alex-duzhichao/fabric/bccsp"
+	"github.com/Alex-duzhichao/fabric/bccsp/factory"
+	"github.com/Alex-duzhichao/fabric/protos/msp"
 	"gopkg.in/yaml.v2"
 )
 

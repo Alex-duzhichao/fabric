@@ -19,13 +19,13 @@ package lockbasedtxmgr
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/version"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/ledger"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/validator"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/validator/statebasedval"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/version"
+	"github.com/Alex-duzhichao/fabric/protos/common"
 )
 
 var logger = flogging.MustGetLogger("lockbasedtxmgr")

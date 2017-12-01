@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric/common/config/msp"
-	ab "github.com/hyperledger/fabric/protos/orderer"
+	"github.com/Alex-duzhichao/fabric/common/config/msp"
+	ab "github.com/Alex-duzhichao/fabric/protos/orderer"
 )
 
 const (

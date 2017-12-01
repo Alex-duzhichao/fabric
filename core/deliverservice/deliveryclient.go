@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/deliverservice/blocksprovider"
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/protos/orderer"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/comm"
+	"github.com/Alex-duzhichao/fabric/core/deliverservice/blocksprovider"
+	"github.com/Alex-duzhichao/fabric/gossip/api"
+	"github.com/Alex-duzhichao/fabric/protos/orderer"
 	"github.com/op/go-logging"
 	"google.golang.org/grpc"
 )

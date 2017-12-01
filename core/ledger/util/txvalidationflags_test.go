@@ -19,7 +19,7 @@ package util
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/protos/peer"
 	"github.com/stretchr/testify/assert"
 )
 

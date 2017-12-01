@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
-	. "github.com/hyperledger/fabric/orderer/ledger"
-	jsonledger "github.com/hyperledger/fabric/orderer/ledger/json"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/configtx/tool/provisional"
+	. "github.com/Alex-duzhichao/fabric/orderer/ledger"
+	jsonledger "github.com/Alex-duzhichao/fabric/orderer/ledger/json"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 )
 
 var genesisBlock = cb.NewBlock(0, nil)

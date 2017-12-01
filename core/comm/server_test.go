@@ -27,8 +27,8 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/transport"
 
-	"github.com/hyperledger/fabric/core/comm"
-	testpb "github.com/hyperledger/fabric/core/comm/testdata/grpc"
+	"github.com/Alex-duzhichao/fabric/core/comm"
+	testpb "github.com/Alex-duzhichao/fabric/core/comm/testdata/grpc"
 )
 
 //Embedded certificates for testing

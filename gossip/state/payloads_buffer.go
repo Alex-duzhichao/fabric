@@ -22,8 +22,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hyperledger/fabric/gossip/util"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
+	proto "github.com/Alex-duzhichao/fabric/protos/gossip"
 	"github.com/op/go-logging"
 )
 

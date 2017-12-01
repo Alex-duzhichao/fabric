@@ -19,9 +19,9 @@ package comm
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/common"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/Alex-duzhichao/fabric/gossip/api"
+	"github.com/Alex-duzhichao/fabric/gossip/common"
+	proto "github.com/Alex-duzhichao/fabric/protos/gossip"
 )
 
 // Comm is an object that enables to communicate with other peers

@@ -17,9 +17,9 @@ limitations under the License.
 package filter
 
 import (
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/Alex-duzhichao/fabric/gossip/comm"
+	"github.com/Alex-duzhichao/fabric/gossip/discovery"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
 )
 
 // RoutingFilter defines a predicate on a NetworkMember

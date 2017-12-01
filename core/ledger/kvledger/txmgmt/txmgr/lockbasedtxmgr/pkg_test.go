@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb/statecouchdb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
-	"github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/txmgr"
-	"github.com/hyperledger/fabric/core/ledger/util"
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/statedb"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/statedb/statecouchdb"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/statedb/stateleveldb"
+	"github.com/Alex-duzhichao/fabric/core/ledger/kvledger/txmgmt/txmgr"
+	"github.com/Alex-duzhichao/fabric/core/ledger/util"
+	"github.com/Alex-duzhichao/fabric/protos/common"
 	"github.com/spf13/viper"
 )
 

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 
 	"github.com/golang/protobuf/proto"
 	logging "github.com/op/go-logging"

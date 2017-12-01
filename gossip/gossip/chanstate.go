@@ -21,12 +21,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hyperledger/fabric/gossip/api"
-	"github.com/hyperledger/fabric/gossip/comm"
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
-	"github.com/hyperledger/fabric/gossip/gossip/channel"
-	proto "github.com/hyperledger/fabric/protos/gossip"
+	"github.com/Alex-duzhichao/fabric/gossip/api"
+	"github.com/Alex-duzhichao/fabric/gossip/comm"
+	"github.com/Alex-duzhichao/fabric/gossip/common"
+	"github.com/Alex-duzhichao/fabric/gossip/discovery"
+	"github.com/Alex-duzhichao/fabric/gossip/gossip/channel"
+	proto "github.com/Alex-duzhichao/fabric/protos/gossip"
 )
 
 type channelState struct {

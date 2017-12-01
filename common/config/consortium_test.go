@@ -18,8 +18,8 @@ package config
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/config/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/config/msp"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 	"github.com/stretchr/testify/assert"
 )
 

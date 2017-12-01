@@ -18,7 +18,7 @@ package sw
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp/mocks"
+	"github.com/Alex-duzhichao/fabric/bccsp/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

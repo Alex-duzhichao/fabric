@@ -22,11 +22,11 @@ import (
 
 	"errors"
 
-	"github.com/hyperledger/fabric/bccsp/factory"
-	configvaluesmsp "github.com/hyperledger/fabric/common/config/msp"
-	"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
+	"github.com/Alex-duzhichao/fabric/bccsp/factory"
+	configvaluesmsp "github.com/Alex-duzhichao/fabric/common/config/msp"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/msp"
 )
 
 // LoadLocalMsp loads the local MSP from the specified directory

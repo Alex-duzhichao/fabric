@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric/gossip/util"
+	"github.com/Alex-duzhichao/fabric/gossip/util"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,13 +17,13 @@ limitations under the License.
 package msp
 
 import (
-	"github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric/msp"
-	cb "github.com/hyperledger/fabric/protos/common"
-	mspprotos "github.com/hyperledger/fabric/protos/msp"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/cauthdsl"
+	"github.com/Alex-duzhichao/fabric/msp"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	mspprotos "github.com/Alex-duzhichao/fabric/protos/msp"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 
-	"github.com/hyperledger/fabric/common/flogging"
+	"github.com/Alex-duzhichao/fabric/common/flogging"
 )
 
 var logger = flogging.MustGetLogger("configvalues/msp")

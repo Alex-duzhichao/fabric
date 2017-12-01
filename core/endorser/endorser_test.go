@@ -31,24 +31,24 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/factory"
-	mockpolicies "github.com/hyperledger/fabric/common/mocks/policies"
-	"github.com/hyperledger/fabric/common/policies"
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/chaincode"
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/peer"
-	syscc "github.com/hyperledger/fabric/core/scc"
-	"github.com/hyperledger/fabric/core/testutil"
-	"github.com/hyperledger/fabric/msp"
-	mspmgmt "github.com/hyperledger/fabric/msp/mgmt"
-	"github.com/hyperledger/fabric/msp/mgmt/testtools"
-	"github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	pbutils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/bccsp"
+	"github.com/Alex-duzhichao/fabric/bccsp/factory"
+	mockpolicies "github.com/Alex-duzhichao/fabric/common/mocks/policies"
+	"github.com/Alex-duzhichao/fabric/common/policies"
+	"github.com/Alex-duzhichao/fabric/common/util"
+	"github.com/Alex-duzhichao/fabric/core/chaincode"
+	"github.com/Alex-duzhichao/fabric/core/common/ccprovider"
+	"github.com/Alex-duzhichao/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/core/container"
+	"github.com/Alex-duzhichao/fabric/core/peer"
+	syscc "github.com/Alex-duzhichao/fabric/core/scc"
+	"github.com/Alex-duzhichao/fabric/core/testutil"
+	"github.com/Alex-duzhichao/fabric/msp"
+	mspmgmt "github.com/Alex-duzhichao/fabric/msp/mgmt"
+	"github.com/Alex-duzhichao/fabric/msp/mgmt/testtools"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
+	pbutils "github.com/Alex-duzhichao/fabric/protos/utils"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
@@ -334,7 +334,7 @@ func deleteChaincodeOnDisk(chaincodeID string) {
 //TestDeploy deploy chaincode example01
 func TestDeploy(t *testing.T) {
 	chainID := util.GetTestChainID()
-	spec := &pb.ChaincodeSpec{Type: 1, ChaincodeId: &pb.ChaincodeID{Name: "ex01", Path: "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example01", Version: "0"}, Input: &pb.ChaincodeInput{Args: [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}}}
+	spec := &pb.ChaincodeSpec{Type: 1, ChaincodeId: &pb.ChaincodeID{Name: "ex01", Path: "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example01", Version: "0"}, Input: &pb.ChaincodeInput{Args: [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}}}
 	defer deleteChaincodeOnDisk("ex01.0")
 
 	cccid := ccprovider.NewCCContext(chainID, "ex01", "0", "", false, nil, nil)
@@ -396,7 +396,7 @@ func TestRedeploy(t *testing.T) {
 	chainID := util.GetTestChainID()
 
 	//invalid arguments
-	spec := &pb.ChaincodeSpec{Type: 1, ChaincodeId: &pb.ChaincodeID{Name: "ex02", Path: "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02", Version: "0"}, Input: &pb.ChaincodeInput{Args: [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}}}
+	spec := &pb.ChaincodeSpec{Type: 1, ChaincodeId: &pb.ChaincodeID{Name: "ex02", Path: "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example02", Version: "0"}, Input: &pb.ChaincodeInput{Args: [][]byte{[]byte("init"), []byte("a"), []byte("100"), []byte("b"), []byte("200")}}}
 
 	defer deleteChaincodeOnDisk("ex02.0")
 
@@ -428,7 +428,7 @@ func TestDeployAndInvoke(t *testing.T) {
 	chainID := util.GetTestChainID()
 	var ctxt = context.Background()
 
-	url := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example01"
+	url := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example01"
 	chaincodeID := &pb.ChaincodeID{Path: url, Name: "ex01", Version: "0"}
 
 	defer deleteChaincodeOnDisk("ex01.0")
@@ -533,8 +533,8 @@ func TestDeployAndUpgrade(t *testing.T) {
 	chainID := util.GetTestChainID()
 	var ctxt = context.Background()
 
-	url1 := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example01"
-	url2 := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example02"
+	url1 := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example01"
+	url2 := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example02"
 	chaincodeID1 := &pb.ChaincodeID{Path: url1, Name: "upgradeex01", Version: "0"}
 	chaincodeID2 := &pb.ChaincodeID{Path: url2, Name: "upgradeex01", Version: "1"}
 
@@ -596,7 +596,7 @@ func TestWritersACLFail(t *testing.T) {
 	chainID := util.GetTestChainID()
 	var ctxt = context.Background()
 
-	url := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example01"
+	url := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example01"
 	chaincodeID := &pb.ChaincodeID{Path: url, Name: "ex01-fail", Version: "0"}
 
 	defer deleteChaincodeOnDisk("ex01-fail.0")
@@ -685,7 +685,7 @@ func TestAdminACLFail(t *testing.T) {
 
 	var ctxt = context.Background()
 
-	url := "github.com/hyperledger/fabric/examples/chaincode/go/chaincode_example01"
+	url := "github.com/Alex-duzhichao/fabric/examples/chaincode/go/chaincode_example01"
 	chaincodeID := &pb.ChaincodeID{Path: url, Name: "ex01-fail1", Version: "0"}
 
 	defer deleteChaincodeOnDisk("ex01-fail1.0")

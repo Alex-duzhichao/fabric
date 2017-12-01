@@ -19,7 +19,7 @@ package multichain
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/orderer/multichain"
+	"github.com/Alex-duzhichao/fabric/orderer/multichain"
 )
 
 func TestConsenterSupportInterface(t *testing.T) {

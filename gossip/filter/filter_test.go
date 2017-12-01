@@ -19,8 +19,8 @@ package filter
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/gossip/common"
-	"github.com/hyperledger/fabric/gossip/discovery"
+	"github.com/Alex-duzhichao/fabric/gossip/common"
+	"github.com/Alex-duzhichao/fabric/gossip/discovery"
 	"github.com/stretchr/testify/assert"
 )
 

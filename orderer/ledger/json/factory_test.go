@@ -24,7 +24,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/hyperledger/fabric/common/configtx/tool/provisional"
+	"github.com/Alex-duzhichao/fabric/common/configtx/tool/provisional"
 	logging "github.com/op/go-logging"
 	"github.com/stretchr/testify/assert"
 )

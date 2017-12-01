@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hyperledger/fabric/common/configtx/test"
-	"github.com/hyperledger/fabric/core/ledger"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
-	"github.com/hyperledger/fabric/protos/common"
-	benchcommon "github.com/hyperledger/fabric/test/tools/LTE/common"
+	"github.com/Alex-duzhichao/fabric/common/configtx/test"
+	"github.com/Alex-duzhichao/fabric/core/ledger"
+	"github.com/Alex-duzhichao/fabric/core/ledger/ledgermgmt"
+	"github.com/Alex-duzhichao/fabric/protos/common"
+	benchcommon "github.com/Alex-duzhichao/fabric/test/tools/LTE/common"
 )
 
 // ChainID is a type used for the ids for the chains for experiments

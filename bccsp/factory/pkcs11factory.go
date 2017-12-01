@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/pkcs11"
-	"github.com/hyperledger/fabric/bccsp/sw"
+	"github.com/Alex-duzhichao/fabric/bccsp"
+	"github.com/Alex-duzhichao/fabric/bccsp/pkcs11"
+	"github.com/Alex-duzhichao/fabric/bccsp/sw"
 )
 
 const (

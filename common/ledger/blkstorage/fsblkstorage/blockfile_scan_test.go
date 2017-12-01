@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/ledger/testutil"
-	"github.com/hyperledger/fabric/common/ledger/util"
+	"github.com/Alex-duzhichao/fabric/common/ledger/testutil"
+	"github.com/Alex-duzhichao/fabric/common/ledger/util"
 
-	"github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/common"
 )
 
 func TestBlockFileScanSmallTxOnly(t *testing.T) {

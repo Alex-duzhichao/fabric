@@ -21,13 +21,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/config"
-	"github.com/hyperledger/fabric/msp"
+	"github.com/Alex-duzhichao/fabric/core/config"
+	"github.com/Alex-duzhichao/fabric/msp"
 	logging "github.com/op/go-logging"
 )
 
 func init() {
-	// Configuration is always specified relative to $GOPATH/github.com/hyperledger/fabric
+	// Configuration is always specified relative to $GOPATH/github.com/Alex-duzhichao/fabric
 	// This test will fail with the default configuration if executed in the package dir
 	// We are in common/configtx/test
 	os.Chdir(filepath.Join("..", "..", ".."))

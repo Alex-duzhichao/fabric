@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/core/chaincode/shim"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 // NewKeyPerInvoke is allows the following transactions

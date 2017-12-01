@@ -36,9 +36,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/hyperledger/fabric/core/comm"
-	"github.com/hyperledger/fabric/core/config"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/core/comm"
+	"github.com/Alex-duzhichao/fabric/core/config"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 // Is the configuration cached?

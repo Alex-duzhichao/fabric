@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric/core/container"
-	"github.com/hyperledger/fabric/core/testutil"
-	pb "github.com/hyperledger/fabric/protos/peer"
+	"github.com/Alex-duzhichao/fabric/common/util"
+	"github.com/Alex-duzhichao/fabric/core/container"
+	"github.com/Alex-duzhichao/fabric/core/testutil"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
 )
 
 func TestMain(m *testing.M) {

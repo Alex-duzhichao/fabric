@@ -19,7 +19,7 @@ package config
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric/common/config"
+	"github.com/Alex-duzhichao/fabric/common/config"
 )
 
 func TestOrdererConfigInterface(t *testing.T) {

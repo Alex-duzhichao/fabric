@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric/bccsp/mocks"
-	"github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/Alex-duzhichao/fabric/bccsp"
+	"github.com/Alex-duzhichao/fabric/bccsp/mocks"
+	"github.com/Alex-duzhichao/fabric/bccsp/utils"
 	"github.com/stretchr/testify/assert"
 )
 

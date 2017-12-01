@@ -17,9 +17,9 @@ limitations under the License.
 package blockcutter
 
 import (
-	"github.com/hyperledger/fabric/common/config"
-	"github.com/hyperledger/fabric/orderer/common/filter"
-	cb "github.com/hyperledger/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/common/config"
+	"github.com/Alex-duzhichao/fabric/orderer/common/filter"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
 
 	"github.com/op/go-logging"
 )

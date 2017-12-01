@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hyperledger/fabric/common/policies"
-	cb "github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/common/policies"
+	cb "github.com/Alex-duzhichao/fabric/protos/common"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 func (c *configSet) verifyReadSet(readSet map[string]comparable) error {

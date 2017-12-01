@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/hyperledger/fabric/core/ledger/ledgermgmt"
-	ccprovider2 "github.com/hyperledger/fabric/core/mocks/ccprovider"
-	"github.com/hyperledger/fabric/core/peer"
+	"github.com/Alex-duzhichao/fabric/core/common/ccprovider"
+	"github.com/Alex-duzhichao/fabric/core/ledger/ledgermgmt"
+	ccprovider2 "github.com/Alex-duzhichao/fabric/core/mocks/ccprovider"
+	"github.com/Alex-duzhichao/fabric/core/peer"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 )
