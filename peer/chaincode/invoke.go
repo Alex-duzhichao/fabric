@@ -47,6 +47,7 @@ func invokeCmd(cf *ChaincodeCmdFactory) *cobra.Command {
 
 func chaincodeInvoke(cmd *cobra.Command, args []string, cf *ChaincodeCmdFactory) error {
 	var err error
+    var a int
 	if cf == nil {
 		cf, err = InitCmdFactory(true, true)
 		if err != nil {
@@ -55,5 +56,12 @@ func chaincodeInvoke(cmd *cobra.Command, args []string, cf *ChaincodeCmdFactory)
 	}
 	defer cf.BroadcastClient.Close()
 
-	return chaincodeInvokeOrQuery(cmd, args, true, cf)
+	// return chaincodeInvokeOrQuery(cmd, args, true, cf)
+   /* for 循环 */
+   for a := 0; a < 10; a++ {
+       err = chaincodeInvokeOrQuery(cmd, args, true, cf)
+       if err != nil {
+            return err
+       }
+   }
 }
