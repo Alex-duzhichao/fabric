@@ -22,8 +22,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/hyperledger/fabric/core/common/ccpackage"
-	"github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/core/common/ccpackage"
+	"github.com/Alex-duzhichao/fabric/protos/utils"
 )
 
 // signpackageCmd returns the cobra command for signing a package

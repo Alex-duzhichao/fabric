@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hyperledger/fabric/core/scc/cscc"
-	"github.com/hyperledger/fabric/peer/common"
-	pcommon "github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric/protos/peer"
-	putils "github.com/hyperledger/fabric/protos/utils"
+	"github.com/Alex-duzhichao/fabric/core/scc/cscc"
+	"github.com/Alex-duzhichao/fabric/peer/common"
+	pcommon "github.com/Alex-duzhichao/fabric/protos/common"
+	pb "github.com/Alex-duzhichao/fabric/protos/peer"
+	putils "github.com/Alex-duzhichao/fabric/protos/utils"
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"
 )
