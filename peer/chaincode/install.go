@@ -169,6 +169,7 @@ func chaincodeInstall(cmd *cobra.Command, ccpackfile string, cf *ChaincodeCmdFac
 		}
 	}
 
+    logger.Info("testing... ccpackfile:%s", ccpackfile)
 	var ccpackmsg proto.Message
 	if ccpackfile == "" {
 		if chaincodePath == common.UndefinedParamValue || chaincodeVersion == common.UndefinedParamValue || chaincodeName == common.UndefinedParamValue {
